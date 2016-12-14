@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Make Trump Orange Again",
+    "version": "1.0",
+
+    "description": "Replace 'Trump' or 'Donald Trump' with 'An orange man'",
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["mtoa.js"]
+        }
+    ]
+}
